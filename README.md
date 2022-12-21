@@ -7,7 +7,7 @@ Check out my <a href="https://github.com/Brela/codeWars" target="_blank">"codeWa
 JavaScript, Python
 
 ### notes
-* Check out<a href="https://www.codewars.com/users/breland/stats" target="_blank"> my codewars stats</a> 
+* Check out<a href="https://www.codewars.com/users/breland/stats" target="_blank"> __my codewars stats__</a>
 
 ### highlights
 ✔️ coding challenges are lots of fun!<br>
