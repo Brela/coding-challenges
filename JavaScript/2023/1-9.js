@@ -58,3 +58,5 @@ function dirReduc1(arr) {
 
 console.log(dirReduc1(["NORTH", "SOUTH", "SOUTH", "EAST", "WEST", "NORTH", "WEST"]))
 
+
+
