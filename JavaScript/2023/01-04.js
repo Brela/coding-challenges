@@ -9,7 +9,6 @@ Given an integral number, determine if it's a square number:
 25  =>  true
 26  =>  false 
 
-
 My plan: 
 if num is less than 0, return false. This will save the code from having to check nums that we know aren't valid
 
