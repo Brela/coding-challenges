@@ -4,7 +4,7 @@
 
 Each letter of a word scores points according to its position in the alphabet: a = 1, b = 2, c = 3 etc.
 
-You need to return the highest scoring word as a string.
+You need to return the highest scoring word as a string..
 
 If two words score the same, return the word that appears earliest in the original string.
 
