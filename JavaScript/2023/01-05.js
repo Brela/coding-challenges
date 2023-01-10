@@ -1,4 +1,4 @@
-// 8yu: easy day. sum all nums up to num
+// 8yu: sum all nums up to num
 
 /* Write a program that finds the summation of every number from 1 to num. The number will always be a positive integer greater than 0.
 
