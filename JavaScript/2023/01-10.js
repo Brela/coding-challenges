@@ -1,4 +1,4 @@
-// 7kyu : count letters
+// 7kyu : count letters.
 
 function count(str) {
     let sett = {}
