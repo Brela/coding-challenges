@@ -10,6 +10,7 @@ each character in the new string is "(" if that character appears only once in t
 // I will do this by running another iteration with a .map that changes the letter to a '(' if the obj[letter] = 1 and ')' if it is greater than 1
 
 // MINE
+// Time complexity - O(n) - where n is the length of the input string. In the worst case scenario, each operation is performed once for each character
 function duplicateEncode(str) {
     let arr = str.split('');
     let obj = {};
@@ -21,7 +22,6 @@ function duplicateEncode(str) {
     });
     return arr.join('');
 }
-
 
 console.log(duplicateEncode("recede") + " ---- " + "()()()");
 
