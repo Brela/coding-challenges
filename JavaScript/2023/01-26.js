@@ -8,7 +8,8 @@ return the larget number of the 3 formulas
 */
 
 function calculate1RM(w, r) {
-    if (r === 0 || r === 1) return r;
+    if (r === 0) return r;
+    if (r === 1) return w;
     const epley = _ => { return w * (1 + (r / 30)) }
     const mcGlothin = _ => { return (100 * w) / (101.3 - (2.67123 * r)) }
     const lombardi = _ => { return w * (Math.pow(r, 0.10)) }
