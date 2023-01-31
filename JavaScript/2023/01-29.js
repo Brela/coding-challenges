@@ -1,4 +1,4 @@
-// 7 kyu - class method drill - quarks
+// 7 kyu - a class method for quarks
 
 /* You're modelling the interaction between a large number of 
 quarks and have decided to create a Quark class so you 
