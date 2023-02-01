@@ -1,33 +1,33 @@
-// 7 kyu - a class method for quarks
+// 7 kyu - a class method to create pods - pods swap colors when bumped
 
 /* You're modelling the interaction between a large number of 
-quarks and have decided to create a Quark class so you 
-can generate your own quark objects.
+pods and have decided to create a pod class so you 
+can generate your own pod objects.
 
-Your Quark class should allow you to create quarks of any valid color ("red", "blue", and "green") 
+Your pod class should allow you to create pods of any valid color ("red", "blue", and "green") 
 and any valid flavor ('up', 'down', 'strange', 'charm', 'top', and 'bottom').
 
-Every quark has the same baryon_number (BaryonNumber in C#): 1/3.
+Every pod has the same baryon_number (BaryonNumber in C#): 1/3.
 
-Every quark should have an .interact() method that allows any quark to interact 
-with another quark via the strong force. When two quarks interact they exchange colors. */
+Every pod should have an .interact() method that allows any pod to interact 
+with another pod via the strong force. When two pods interact they exchange colors. */
 
-class Quark {
+class Pod {
     constructor(color, flavor) {
         this.color = color,
             this.flavor = flavor,
             this.baryon_number = 1 / 3
     }
-    interact(otherQuark) {
+    interact(otherPod) {
         let tempColor = this.color;
-        this.color = otherQuark.color;
-        otherQuark.color = tempColor;
+        this.color = otherPod.color;
+        otherPod.color = tempColor;
     }
 }
 
 
-let q1 = new Quark("red", "up")
-let q2 = new Quark("blue", "strange")
+let q1 = new Pod("red", "up")
+let q2 = new Pod("blue", "strange")
 
 
 console.log(q1.color) // "red"
