@@ -14,17 +14,17 @@ inside a string. For example, in the string
  */
 
 function sumOfIntegersInString(s) {
-    s = s.split('')
-    let total = 0
-    let tempNum = ''
+    s = s.split('');
+    let total = 0;
+    let tempNum = '';
     for (let i = 0; i < s.length; i++) {
         if (!Number.isNaN(+s[i])) tempNum += s[i];
         else {
             total += Number(tempNum);
-            tempNum = ''
+            tempNum = '';
         }
     }
-    return total + Number(tempNum)
+    return total + Number(tempNum);
 }
 
 console.log(sumOfIntegersInString("The30quick20brown10f0x1203jumps914ov3r1349the102l4zy dog")) // 3635
