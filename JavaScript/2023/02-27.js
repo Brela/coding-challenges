@@ -13,7 +13,6 @@ const removeConsecutiveDuplicates = s => {
     return s.join(' ')
 }
 
-console.log(removeConsecutiveDuplicates('alpha beta beta gamma gamma gamma delta alpha beta beta gamma gamma gamma delta')) //'alpha beta gamma delta alpha beta gamma delta')
 
 
 // simpler version by others
