@@ -1,5 +1,5 @@
 # coding challenges
-This is a collection of my (usually daily) coding challenges<br>
+This is a collection of my coding challenges<br>
 The purpose of this is to keep my coding skills sharp and always-improving<br>
 Check out my <a href="https://github.com/Brela/codeWars" target="_blank">"codeWars"</a> repository and the corresponding website in that repo to see some of the coding challenges with user input!
 

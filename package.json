@@ -1,0 +1,23 @@
+{
+  "name": "coding-challeng",
+  "version": "1.0.0",
+  "description": "This is a collection of my (usually daily) coding challenges<br>\r The purpose of this is to keep my coding skills sharp and always-improving<br>\r Check out my <a href=\"https://github.com/Brela/codeWars\" target=\"_blank\">\"codeWars\"</a> repository and the corresponding website in that repo to see some of the coding challenges with user input!",
+  "main": "index.js",
+  "scripts": {
+    "dev": "console-ninja node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Brela/coding-challenges.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Brela/coding-challenges/issues"
+  },
+  "homepage": "https://github.com/Brela/coding-challenges#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
