@@ -9,7 +9,7 @@ function validAnagram(str1, str2) {
   // 2 empty objs
   let objOne = {};
   let objTwo = {};
-  // create an object with the first string with a loops
+  // fill the first obj with the char as key and occurances as the value
   for (let char of str1) {
     objOne[char] = objOne[char] + 1 || 1;
   }
