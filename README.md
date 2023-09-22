@@ -1,7 +1,13 @@
 # coding challenges
 This is a collection of my coding challenges<br>
 The purpose of this is to keep my coding skills sharp and always-improving<br>
-Check out my <a href="https://github.com/Brela/codeWars" target="_blank">"codeWars"</a> repository and the corresponding website in that repo to see some of the coding challenges with user input!
+
+### DSA
+Currently, I am working on a 
+<a href="https://www.udemy.com/share/101XY23@mqJZ7HcDmgdDGP4Mo4flCJKiqQ9_ayQpsCsLn9VEbYxmP94vo2AyrXS9TVStNJtbOA==/" target="_blank">Data Structures and Algorithms course</a> by Colt Steele on Udemy 
+
+
+It is awesome learning how to prevent nested loops whenever possible and acheiving better time complexity in my algorithms in general
 
 ### tech used
 JavaScript, Python
