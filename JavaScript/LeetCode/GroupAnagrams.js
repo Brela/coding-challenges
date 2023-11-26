@@ -9,3 +9,18 @@ Example 1:
 
 Input: strs = ["eat","tea","tan","ate","nat","bat"]
 Output: [["bat"],["nat","tan"],["ate","eat","tea"]] */
+
+const groupAnagrams = function (strs) {
+  const group = {};
+
+  strs.forEach((str) => {
+    strKey = str.split("").sort().join(""); // strKey is simply sorted to find if is anagram
+    group[strKey] ? group[strKey].push(str) : (group[strKey] = [str]);
+  });
+
+  const groupedArrs = [].concat(Object.values(group));
+  console.log(groupedArrs);
+  return groupedArrs;
+};
+
+groupAnagrams(["eat", "tea", "tan", "ate", "nat", "bat"]);
