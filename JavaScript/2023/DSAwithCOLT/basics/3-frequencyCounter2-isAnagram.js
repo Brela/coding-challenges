@@ -26,8 +26,8 @@ function validAnagram(str1, str2) {
   for (let key in objOne) {
     // console.log(objOne[key])
 
-    if (!objTwo[key]) return false;
-    if (objOne[key] !== objTwo[key]) return false;
+    if (!objTwo[key]) return false; // if objTwo doesn't have that property ( the char) return false
+    if (objOne[key] !== objTwo[key]) return false; // compare the obj values at that key - return false if they don't match
   }
 
   // check if the first obj is empty
